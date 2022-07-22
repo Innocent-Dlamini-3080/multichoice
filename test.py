@@ -36,6 +36,7 @@ def test(quastions):
     #print incorrect_questions along with the correct answers
     for _ in incorrect_questions:
         print(_)
+    if score < len(questions):
+        test(questions)
 
-
-test(questions)
+test(questions) #acbcb
